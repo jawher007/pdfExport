@@ -1,0 +1,203 @@
+{
+	"devisNumber": "DEV-2578",
+	"clientNumber": "492498342",
+	"createdOnUtc": "13/06/2022",
+	"devisAvailibility": "25/06/2022",
+	"totalH":1000,
+	"tva":5,
+	"subTotalTTC":1050,
+	"bonusCEE":500,
+	"BonusMPR":500,
+	"totalTTC":850,
+	"signature":"Date et signature précédées de la mention “Bon pour accord“",
+	"company": {
+		"logo": "data:image/png;base64,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",
+		"name": "Garanka Plombier Chauggagiste Paris",
+		"address": "163 Rue de Charonne",
+		"town": "Paris",
+		"zipcode": "75011",
+		"phone": "01 43 71 82 22",
+		"email":"contact@naturaleko.fr",
+		"siret": "12345678901234",
+		"reference": "COMB-RE",
+		"businessSuperviser": "Thomas Dupont"
+	},
+	"customer": {
+		"name": "Mme Olyme Sauvé",
+		"address": "13 Rue St Ferrèol",
+		"town": "Metz",
+		"zipcode": "57050"
+	},
+	"benefits": [
+		{
+			"label": "Pompe à chaleur Air/Air de marque Toshiba",
+			"quantity": 8,
+			"tva": "5",
+			"unitHTPrice": 100,
+			"htPrice": 800,
+			"ttcPrice": 840,
+			"description": "<ul><li>Marque : LG</li><li>Marque : Samsung</li><li>Marque : Condor</li></ul>",
+			"subcontractor": {
+				"name": "Install +",
+				"address": "25 rue marbeuf",
+				"phone": "0148567089",
+				"town": "CHAMPIGNY",
+				"zipcode": "94500",
+				"siret": "79146550300013"
+			}
+		},
+		{
+			"label": "Pompe à chaleur Air/Air de marque Toshiba",
+			"quantity": 8,
+			"tva": "5",
+			"unitHTPrice": 100,
+			"htPrice": 800,
+			"ttcPrice": 840,
+			"description": "<ul><li>Marque : LG</li><li>Marque : Samsung</li><li>Marque : Condor</li></ul>",
+			"subcontractor": {
+				"name": "Install +",
+				"address": "25 rue marbeuf",
+				"phone": "0148567089",
+				"town": "CHAMPIGNY",
+				"zipcode": "94500",
+				"siret": "79146550300013"
+			}
+		},
+		{
+			"label": "Pompe à chaleur Air/Air de marque Toshiba",
+			"quantity": 8,
+			"tva": "5",
+			"unitHTPrice": 100,
+			"htPrice": 800,
+			"ttcPrice": 840,
+			"description": "<ul><li>Marque : LG</li><li>Marque : Samsung</li><li>Marque : Condor</li></ul>",
+			"subcontractor": {
+				"name": "Install +",
+				"address": "25 rue marbeuf",
+				"phone": "0148567089",
+				"town": "CHAMPIGNY",
+				"zipcode": "94500",
+				"siret": "79146550300013"
+			}
+		},
+		{
+			"label": "Pompe à chaleur Air/Air de marque Toshiba",
+			"quantity": 8,
+			"tva": "5",
+			"unitHTPrice": 100,
+			"htPrice": 800,
+			"ttcPrice": 840,
+			"description": "<ul><li>Marque : LG</li><li>Marque : Samsung</li><li>Marque : Condor</li></ul>",
+			"subcontractor": {
+				"name": "Install +",
+				"address": "25 rue marbeuf",
+				"phone": "0148567089",
+				"town": "CHAMPIGNY",
+				"zipcode": "94500",
+				"siret": "79146550300013"
+			}
+		},
+		{
+			"label": "Pompe à chaleur Air/Air de marque Toshiba",
+			"quantity": 8,
+			"tva": "5",
+			"unitHTPrice": 100,
+			"htPrice": 800,
+			"ttcPrice": 840,
+			"description": "<ul><li>Marque : LG</li><li>Marque : Samsung</li><li>Marque : Condor</li></ul>",
+			"subcontractor": {
+				"name": "Install +",
+				"address": "25 rue marbeuf",
+				"phone": "0148567089",
+				"town": "CHAMPIGNY",
+				"zipcode": "94500",
+				"siret": "79146550300013"
+			}
+		},
+		{
+			"label": "Pompe à chaleur Air/Air de marque Toshiba",
+			"quantity": 8,
+			"tva": "5",
+			"unitHTPrice": 100,
+			"htPrice": 800,
+			"ttcPrice": 840,
+			"description": "<ul><li>Marque : LG</li><li>Marque : Samsung</li><li>Marque : Condor</li></ul>",
+			"subcontractor": {
+				"name": "Install +",
+				"address": "25 rue marbeuf",
+				"phone": "0148567089",
+				"town": "CHAMPIGNY",
+				"zipcode": "94500",
+				"siret": "79146550300013"
+			}
+		},
+		{
+			"label": "Pompe à chaleur Air/Air de marque Toshiba",
+			"quantity": 8,
+			"tva": "5",
+			"unitHTPrice": 100,
+			"htPrice": 800,
+			"ttcPrice": 840,
+			"description": "<ul><li>Marque : LG</li><li>Marque : Samsung</li><li>Marque : Condor</li></ul>",
+			"subcontractor": {
+				"name": "Install +",
+				"address": "25 rue marbeuf",
+				"phone": "0148567089",
+				"town": "CHAMPIGNY",
+				"zipcode": "94500",
+				"siret": "79146550300013"
+			}
+		},
+		{
+			"label": "Pompe à chaleur Air/Air de marque Toshiba",
+			"quantity": 8,
+			"tva": "5",
+			"unitHTPrice": 100,
+			"htPrice": 800,
+			"ttcPrice": 840,
+			"description": "<ul><li>Marque : LG</li><li>Marque : Samsung</li><li>Marque : Condor</li></ul>",
+			"subcontractor": {
+				"name": "Install +",
+				"address": "25 rue marbeuf",
+				"phone": "0148567089",
+				"town": "CHAMPIGNY",
+				"zipcode": "94500",
+				"siret": "79146550300013"
+			}
+		},
+		{
+			"label": "Pompe à chaleur Air/Air de marque Toshiba",
+			"quantity": 8,
+			"tva": "5",
+			"unitHTPrice": 100,
+			"htPrice": 800,
+			"ttcPrice": 840,
+			"description": "<ul><li>Marque : LG</li><li>Marque : Samsung</li><li>Marque : Condor</li></ul>",
+			"subcontractor": {
+				"name": "Install +",
+				"address": "25 rue marbeuf",
+				"phone": "0148567089",
+				"town": "CHAMPIGNY",
+				"zipcode": "94500",
+				"siret": "79146550300013"
+			}
+		},
+		{
+			"label": "Pompe à chaleur Air/Air de marque Toshiba",
+			"quantity": 8,
+			"tva": "5",
+			"unitHTPrice": 100,
+			"htPrice": 800,
+			"ttcPrice": 840,
+			"description": "<ul><li>Marque : LG</li><li>Marque : Samsung</li><li>Marque : Condor</li></ul>",
+			"subcontractor": {
+				"name": "Install +",
+				"address": "25 rue marbeuf",
+				"phone": "0148567089",
+				"town": "CHAMPIGNY",
+				"zipcode": "94500",
+				"siret": "79146550300013"
+			}
+		}
+	]
+}
