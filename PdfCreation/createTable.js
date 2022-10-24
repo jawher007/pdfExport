@@ -7,16 +7,17 @@ const createRow = (item) => `
 <tr>
     <td>
         <div class="flex flex-col">
-            <div>
+            <div class="font-bold">
                 ${item.label}
             </div>
             <div class="mt-4">
                 ${item.description}
             </div>
             <div class="mt-4">
-                <div>${item.subcontractor.name}</div>
-                <div>${item.subcontractor.address},${item.subcontractor.town},${item.subcontractor.zipcode}</div>
-                <div>${item.subcontractor.phone}</div>
+                <div class="font-bold">Sous-traitant: </div>
+                <div class="text-xs">${item.subcontractor.name}</div>
+                <div class="text-xs">${item.subcontractor.address},${item.subcontractor.town},${item.subcontractor.zipcode}</div>
+                <div class="text-xs">${item.subcontractor.phone}</div>
             </div>
     </td>
     <td>${item.quantity}</td>
@@ -64,8 +65,8 @@ const createHtml = (table,devisHeader,prices,signature) => `
         var pageNumberDiv = document.createElement("div");
         var pageNumber = document.createTextNode("Page " + i + " sur " + totalPages);
         pageNumberDiv.style.position = "absolute";
-        pageNumberDiv.style.top = "calc((" + i + " * (297mm - 0.5px)) - 40px)"; //297mm A4 pageheight; 0,5px unknown needed necessary correction value; additional wanted 40px margin from bottom(own element height included)
-        pageNumberDiv.style.height = "16px";
+        pageNumberDiv.style.top = "calc((" + i + " * (297mm - 0.5px)) - 5px)"; //297mm A4 pageheight; 0,5px unknown needed necessary correction value; additional wanted 40px margin from bottom(own element height included)
+        pageNumberDiv.style.height = "5px";
         pageNumberDiv.appendChild(pageNumber);
         document.body.insertBefore(pageNumberDiv, document.getElementById("content"));
         pageNumberDiv.style.left = "calc(100% - (" + pageNumberDiv.offsetWidth + "px + 10px))";
@@ -86,10 +87,12 @@ const createHtml = (table,devisHeader,prices,signature) => `
     </head>
     <body>
   <div id="content" class="a4-size">
+  <div class="mb-16">
   ${devisHeader}
   ${table}
   ${prices}
   ${signature}
+  </div>
   </div>
     </body>
   </html>

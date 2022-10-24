@@ -105649,3 +105649,10 @@ background-color: #469278;
 .text-accent {
   color: #469278;
 }
+
+
+@media print {
+  div {
+    break-inside: avoid;
+  }
+}
